@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build:css": "postcss styles.css -o output.css"
+    "build:css": "postcss styles.css -o output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "dependencies": {
     "@headlessui/react": "^2.0.3",
