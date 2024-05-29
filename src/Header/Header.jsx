@@ -53,20 +53,21 @@ const Header = () => {
           {navigation.map((item) => (
             <a
               key={item.name}
-              href={item.href}
+              href={`/${item.href}`}
               className="text-md font-semibold leading-6 text-[#4c2882] hover:text-[#3b2075] transition-colors duration-300"
             >
               {item.name}
             </a>
           ))}
         </div>
-        <div  className="hidden lg:flex lg:flex-1 lg:justify-end ">
-        <button className="hover:bg-[#3b2075] py-2 px-2  text-white bg-[#4c2882] rounded-lg">
-        <a href="#Footer" className="text-sm font-semibold leading-6  hover:text-[#fff] transition-colors duration-300">
-            Get the App
-          </a>
-</button>
-          
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end align-baseline space-x-5">
+          <a href="https://sandbox-auth.techmyriad.com/login" target='_blank' className="text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300 p-2" >Login</a>
+          <a href="https://sandbox-business.techmyriad.com/signup" target='_blank' className="bg-[#4c2882] text-white font-semibold py-2 px-4 rounded-lg hover:bg-[#3b2075] transition-colors duration-300">Sign Up</a>
+          {/* <button className="hover:bg-[#3b2075] py-2 px-2 text-white bg-[#4c2882] rounded-lg">
+            <a href="#Footer" className="text-sm font-semibold leading-6 hover:text-[#fff] transition-colors duration-300">
+              Get the App
+            </a>
+          </button> */}
         </div>
       </nav>
       <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -96,7 +97,7 @@ const Header = () => {
                 {navigation.map((item) => (
                   <a
                     key={item.name}
-                    href={item.href}
+                    href={`/${item.href}`}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#4c2882] hover:bg-gray-50 transition-colors duration-300"
                     onClick={handleNavClick}
                   >
@@ -104,15 +105,19 @@ const Header = () => {
                   </a>
                 ))}
               </div>
-              <div className="py-6">
+           {/* <div className="py-6">
                 <a
                   href="#Footer"
-                  
                   className="block w-full rounded-lg bg-[#4c2882] px-3 py-2 text-center font-semibold text-white hover:bg-[#3b2075] transition-colors duration-300"
                   onClick={handleNavClick}
                 >
                   Get the App
                 </a>
+              </div> */}
+              <div className="mt-6 flex flex-col space-y-4">
+              <a href="/login" className="text-center text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300">Login</a>
+            
+                <a href="/signup" className="block text-center w-full rounded-lg bg-[#4c2882] px-3 py-2 font-semibold text-white hover:bg-[#3b2075] transition-colors duration-300">Sign Up</a>
               </div>
             </div>
           </div>
