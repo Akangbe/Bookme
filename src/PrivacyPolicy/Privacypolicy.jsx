@@ -6,13 +6,13 @@ export default function PrivacyPolicy() {
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
         <p className="text-gray-700 mb-4">
-          This privacy policy (“Policy”) applies to the website(s) and mobile application(s) (hereinafter referred to as, the "Sites") provided by BOOK ME Microfinance Bank Limited (“BOOK ME MFB”, “we”, “us”, “our”) , and other products/services of BOOK ME MFB . This Policy discloses our data protection practices on our Sites, products and subscriber-based services (“Services”), inclusive of the type of personal data that we collect, our method of collection of personal data, use of personal data and procedures for sharing personal data with third parties.
+          This privacy policy (“Policy”) applies to the website(s) and mobile application(s) (hereinafter referred to as, the "Sites") provided by BOOK ME  (“BOOK ME”, “we”, “us”, “our”) , and other products/services of BOOK ME  . This Policy discloses our data protection practices on our Sites, products and subscriber-based services (“Services”), inclusive of the type of personal data that we collect, our method of collection of personal data, use of personal data and procedures for sharing personal data with third parties.
         </p>
         <p className="text-gray-700 mb-4">
-          The Sites covered by this Policy include our existing websites, mobile applications and all other additional websites and mobile applications produced and managed by BOOK ME MFB. Details of existing Sites include the following:
+          The Sites covered by this Policy include our existing websites, mobile applications and all other additional websites and mobile applications produced and managed by BOOK ME . Details of existing Sites include the following:
         </p>
         <p className="text-gray-700 mb-4">
-          BOOK ME MFB- <a href="http://www.BOOK ME.com/ng" className="text-blue-500 underline">www.BOOK ME.com/ng</a>; accessible from <a href="http://www.BOOK ME.com" className="text-blue-500 underline">www.BOOK ME.com</a>
+          BOOK ME - <a href="http://www.BOOK ME.com/ng" className="text-blue-500 underline">www.BOOK ME.com/ng</a>; accessible from <a href="http://www.BOOK ME.com" className="text-blue-500 underline">www.BOOK ME.com</a>
         </p>
         <p className="text-gray-700 mb-4">
           We value the trust you place in us and understand that your privacy is of utmost importance to you. In light of this, we make use of the highest standards to ensure secure transactions and the privacy of customer information.

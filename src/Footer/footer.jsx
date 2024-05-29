@@ -77,23 +77,15 @@ export default function Footer() {
 
         <div className="flex flex-col items-center space-y-4">
           <div className="flex justify-between items-center w-full mx-auto max-w-screen-xl p-4 flex-wrap">
-            <p className="text-gray-300 dark:text-gray-400 text-sm font-medium">
+            <p className=" text-[#4c2882]  hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-300  dark:text-gray-400 text-sm font-medium">
             Copyright © 2024, Book Me
             </p>
-            <a href="" 
-                className=" hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-300 text-gray-300 dark:text-gray-400 text-sm font-medium"
-              >
-                
-                Privacy Policy
-              </a>
-              <Link to="/policy" className="text-blue-400 underline">
+           
+              <Link to="/policy" className="text-[#4c2882] underline  hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-300  dark:text-gray-400 text-sm font-medium">
           Privacy Policy
         </Link>
         
-            <div className="flex space-x-6">
-             
-             
-            </div>
+          
           </div>
 
           <div className="">
