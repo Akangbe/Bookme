@@ -61,13 +61,13 @@ const Header = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end align-baseline space-x-5">
-          <a href="https://sandbox-auth.techmyriad.com/login" target='_blank' className="text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300 p-2" >Login</a>
-          <a href="https://sandbox-business.techmyriad.com/signup" target='_blank' className="bg-[#4c2882] text-white font-semibold py-2 px-4 rounded-lg hover:bg-[#3b2075] transition-colors duration-300">Sign Up</a>
-          {/* <button className="hover:bg-[#3b2075] py-2 px-2 text-white bg-[#4c2882] rounded-lg">
+          <a href="https://sandbox-auth.techmyriad.com/login" target='_blank' className="text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300 p-2 border border-[#4c2882] rounded-lg">Business Login</a>
+          <a href="https://sandbox-business.techmyriad.com/signup" target='_blank' className="bg-[#4c2882] text-white font-semibold py-2 px-4 rounded-lg hover:bg-[#3b2075] transition-colors duration-300">Business Sign Up</a>
+          <button className="py-2 px-4 text-white bg-gradient-to-r from-[#4c2882] to-[#6b39c5] rounded-lg hover:from-[#3b2075] hover:to-[#5630a5] transition-colors duration-300">
             <a href="#Footer" className="text-sm font-semibold leading-6 hover:text-[#fff] transition-colors duration-300">
               Get the App
             </a>
-          </button> */}
+          </button>
         </div>
       </nav>
       <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -105,19 +105,14 @@ const Header = () => {
                   </a>
                 ))}
               </div>
-           {/* <div className="py-6">
-                <a
-                  href="#Footer"
-                  className="block w-full rounded-lg bg-[#4c2882] px-3 py-2 text-center font-semibold text-white hover:bg-[#3b2075] transition-colors duration-300"
-                  onClick={handleNavClick}
-                >
-                  Get the App
-                </a>
-              </div> */}
               <div className="mt-6 flex flex-col space-y-4">
-              <a href="/login" className="text-center text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300">Login</a>
-            
-                <a href="/signup" className="block text-center w-full rounded-lg bg-[#4c2882] px-3 py-2 font-semibold text-white hover:bg-[#3b2075] transition-colors duration-300">Sign Up</a>
+                <a href="https://sandbox-auth.techmyriad.com/login" className="text-center text-[#4c2882] font-semibold hover:text-[#3b2075] transition-colors duration-300 border border-[#4c2882] rounded-lg py-2">Business Login</a>
+                <a href="https://sandbox-business.techmyriad.com/signup" className="block text-center w-full rounded-lg bg-[#4c2882] px-3 py-2 font-semibold text-white hover:bg-[#3b2075] transition-colors duration-300">Business Sign Up</a>
+                <button className="py-2 px-4 text-white bg-gradient-to-r from-[#4c2882] to-[#6b39c5] rounded-lg hover:from-[#3b2075] hover:to-[#5630a5] transition-colors duration-300">
+                  <a href="#Footer" className="text-sm font-semibold leading-6 hover:text-[#fff] transition-colors duration-300">
+              Get our app for the best experience !
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -128,7 +123,7 @@ const Header = () => {
 };
 
 const navigation = [
-  { name: 'Home', href: '#Home' },
+  { name: 'Home', href: '#About' },
   { name: 'About', href: '#About' },
   { name: 'Services', href: '#card' },
   { name: 'Reviews', href: '#Review' },
