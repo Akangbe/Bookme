@@ -5,6 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer" id="Footer">
       <div className="w-full p-4 text-center rounded-lg shadow sm:p-8 text-gray-800">
+     
         <h5 className="mb-2 text-3xl font-bold text-[#4c2882] dark:text-white">
           Join the Book Me Community
         </h5>
@@ -15,6 +16,7 @@ export default function Footer() {
           today. Experience the convenience and efficiency of Book Me, where
           finding and offering services is just a click away.
         </p>
+
 
         <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
           <a

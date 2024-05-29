@@ -10,7 +10,6 @@ const Home = () => {
     <div>
       <About />
       <Card />
-
       <Review />
     </div>
   );
